@@ -25,15 +25,15 @@ let foodDescriptions = [
 ];
 
 function preload() {
-  myFont = loadFont("RubikMonoOne-Regular.ttf");
-  dons = loadImage("img/dons.png");
-  died = loadImage("img/youdied.png");
-  coolbacon = loadImage("img/coolbacon.png");
-  let frenchToast = loadImage("img/frenchtoast.png");
-  let eggs = loadImage("img/eggs.png");
-  let bacon = loadImage("img/bacon.png");
-  let bagel = loadImage("img/bagel.png");
-  retry = loadImage("img/retry.png");
+  myFont = loadFont("../RubikMonoOne-Regular.ttf");
+  dons = loadImage("../img/dons.png");
+  died = loadImage("../img/youdied.png");
+  coolbacon = loadImage("../img/coolbacon.png");
+  let frenchToast = loadImage("../img/frenchtoast.png");
+  let eggs = loadImage("../img/eggs.png");
+  let bacon = loadImage("../img/bacon.png");
+  let bagel = loadImage("../img/bagel.png");
+  retry = loadImage("../img/retry.png");
 
   frenchToast.resize(100, 0);
   eggs.resize(100, 0);
