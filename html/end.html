@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>You made it!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/stylesheet.css">
+    </head>
+    <body id="start">
+        <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js"></script>
+        <script>
+            confetti({
+  spread: 360,
+  ticks: 200,
+  gravity: 1,
+  decay: 0.94,
+  startVelocity: 30,
+  particleCount: 100,
+  scalar: 3,
+  shapes: ["image"],
+  shapeOptions: {
+    image: [{
+        src: "https://files.catbox.moe/9mb5f5.png",
+        width: 32,
+        height: 32,
+      },
+      {
+        src: "https://particles.js.org/images/fruits/star.png",
+        width: 32,
+        height: 32,
+      },
+      {
+        src: "https://files.catbox.moe/m3jyml.png",
+        width: 32,
+        height: 32,
+      }
+    ],
+  },
+});
+        </script>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="title">
+            USF<br />Student<br />Simulator
+        </div>
+
+        <div class="label">
+            <h2 class = "startsub">
+                <br />
+                Huzzah!
+                <br />
+                <br />
+                Despite all odds, you survived a day in the<br>life of a University of San Francisco<br/>student! Father Fitz would be proud!
+                <br />
+                <br />
+                Go Dons! 🎉
+            </h2>    
+        </div>
+
+        <div class="button-primary">
+            <h2>
+                <a href="../index.html">Replay?</a>
+            </h2>
+        </div>
+    </body>
+    <audio autoplay loop src="../audio/applause.mp3"></audio>
+</html>
