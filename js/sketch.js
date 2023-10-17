@@ -29,7 +29,7 @@ function preload() {
   dons = loadImage("/usfstudentsim/img/dons.png");
   died = loadImage("/usfstudentsim/img/youdied.png");
   coolbacon = loadImage("/usfstudentsim/img/coolbacon.png");
-  let frenchToast = loadImage("/usfstudentsim/frenchtoast.png");
+  let frenchToast = loadImage("/usfstudentsim/img/frenchtoast.png");
   let eggs = loadImage("/usfstudentsim/img/eggs.png");
   let bacon = loadImage("/usfstudentsim/img/bacon.png");
   let bagel = loadImage("/usfstudentsim/img/bagel.png");
@@ -45,7 +45,7 @@ function preload() {
 
 function setup() {
   createCanvas(600, 400);
-  bg = loadImage("/img/bg.png");
+  bg = loadImage("/usfstudentsim/img/bg.png");
   textFont(myFont);
   leftButtonX = width / 4 - 20;
   leftButtonY = height / 2 + 50;
