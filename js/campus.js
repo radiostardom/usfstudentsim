@@ -83,6 +83,7 @@ function draw() {
   // Display the moving square
   if (playersOn) {
     image(arrowkeys, 345, 35, 80, 50);
+    text("Hint:\narrow keys", 345, 73);
 
     // Draw the current enemy image
     image(
