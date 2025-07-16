@@ -71,7 +71,7 @@ function draw() {
     textAlign(CENTER);
     fill("white");
     stroke(0);
-    strokeWeight(2);
+    strokeWeight(3);
     text("Pick a safe breakfast!", width / 2, 83);
 
     // Draw the triangle buttons
